@@ -1308,7 +1308,7 @@ textarea.form-input::-webkit-resizer { display: none; }
  * responsive larger than 450px screen
  */
 
-@media (min-width: 450px) {
+@media (max-width: 450px) {
 
   /**
    * client
@@ -1323,7 +1323,11 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .project-img,
-  .blog-banner-box { height: auto; }
+  .blog-banner-box { height: auto; 
+
+/* map */
+ .mapouter{display:table;}.gmap_canvas{overflow:hidden;position:relative;height:580px;width:370px;background:#fff;}
+  .gmap_canvas iframe{position:relative !important;z-index:2 !important;}.gmap_canvas a{color:#fff !important;position:absolute !important;top:0 !important;left:0 !important;z-index:0 !important;}		    
 
 }
 
